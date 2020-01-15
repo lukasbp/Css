@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        /* mudando a cor geral da tabela */
+        table{
+            background-color: green;
+        }
+        /* mudando a cor da cabeça da tabela */
+        table thead{
+            background-color: blue;
+        }
+        /* alterando a borda do primeiro filho da tabela ou seja
+        o primeiro td  */
+        table td:first-child{
+            border: 1px solid black;
+        }
+        /* alterando somente o caption */
+        table > caption{
+            caption-side: top;
+            font-style: italic;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>meses</caption>
+        <thead>
+            <tr>
+                <td>mes</td>
+                <td>ano</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>maio</td>
+                <td>2016</td>
+            </tr>
+            <tr>
+                <td>junho</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>junho</td>
+                <td>2017</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
